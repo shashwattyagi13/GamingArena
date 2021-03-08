@@ -1,0 +1,184 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .elements {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a {
+
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #934caf;
+    color: white;
+  }
+
+  .img {
+    display: flex;
+    float: left;
+  }
+
+  .img-style {
+    height: 700px;
+    width: 700px;
+  }
+
+
+  .grid-container {
+    display: grid;
+    height: 900px;
+    align-content: start;
+    grid-template-columns: 435px 435px 435px;
+    grid-gap: 10px;
+    background-color: blueviolet;
+    padding: 10px;
+    grid-template-rows: 435px 435px;
+    grid-gap: 10px;
+
+  }
+
+  .grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 400px;
+
+  }
+
+  h2 {
+    margin: 20px;
+    text-align: center;
+    color: blueviolet;
+  }
+
+  .title {
+
+    text-align: center;
+    margin: 20 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+
+  }
+
+  .title::after {
+    content: '';
+    background: #743e8a;
+    width: 160px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .bimg {
+
+    height: 245px;
+    width: 435px;
+    padding-bottom: 50px;
+
+  }
+
+  .btn {
+
+    display: inline-block;
+    padding: 18px 40px;
+    margin: 0px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    color: #fff;
+    background-color: rgb(195, 0, 255);
+  }
+
+  /* #playnow{
+  background-color: hotpink;
+  color: black;
+} */
+
+
+/*---------------footer---------*/
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    }
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width:250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 10;
+    text-align: center;
+}
+.footer-col-2 img{
+    width :200px;
+    margin-bottom: 10px;
+}
+.footer-col-3, .footer-col-4{
+flex-basis: 12%;
+text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+}
