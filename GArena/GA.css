@@ -79,6 +79,12 @@ html {
     color: blueviolet;
   }
 
+  h3 {
+    margin: 20px;
+    text-align: center;
+    color: black;
+  }
+
   .title {
 
     text-align: center;
@@ -87,6 +93,15 @@ html {
     line-height: 60px;
     color: #555;
 
+  }
+
+  .upcoming{
+    text-align: center;
+    margin: 20 auto 80px;
+    position: relative;
+    line-height: 30px;
+    color: #555;
+    font-size: 50px;
   }
 
   .title::after {
